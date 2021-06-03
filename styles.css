@@ -31,12 +31,19 @@ nav img{
     padding: 8px 12px;
     position: relative;
 }
-
 .nav-links ul li a{
-     color:grey;
-    text-decoration: none;
-    font-size: 13px;
+    color:grey;
+   text-decoration: none;
+   font-size: 13px;
 
+
+}
+
+@media only screen and (max-width: 600px) {
+    nav img{
+
+        width:150px;
+    }
 }
 .nav-links ul li a::after{
 
@@ -160,7 +167,7 @@ margin-left: 20%;
    display: inline-block; 
    padding-left: 10%;
    padding-right: 10%;
-   margin-top: 10%;
+   margin-top: 8%;
    margin-left: 10%;
    height:20%;
    justify-content: space-between;
@@ -181,12 +188,16 @@ margin-left: 20%;
    
 
 }
-.sponser-cycleman{
-   padding-left: 70%;
-     width:100%;
-    padding-right:100%;
-    margin-left:80%;
-}
+
+@media only screen and (max-width: 600px) {
+    .sponser .cycleman {
+        padding-left: 70%;
+        width:100%;
+       padding-right:100%;
+       
+    }
+  }
+
 
 
 footer{
